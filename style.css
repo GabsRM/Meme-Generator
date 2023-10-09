@@ -1,0 +1,65 @@
+html {
+  font-size: 62.5%; /* 1px */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.meme-generator {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.meme-section {
+   
+  padding: 1rem;
+  background-color: darkcyan;
+  border-radius: 0.5rem;
+  width: 80rem;
+  text-align: center;
+}
+
+.meme-generator img {
+  height: 43rem;
+  width: auto;
+  object-fit: cover;
+}
+
+.meme-generator .generate-meme-btn {
+  padding: 2rem;
+  border: none;
+  border-left: 0.4rem solid #222;
+  border-right: 0.4rem solid #222;
+  margin: 2.4rem 0;
+  font-size: 20px;
+  color: #f64d4d;
+  background: #fff;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+.meme-generator .generate-meme-btn:hover {
+  padding: 0.8rem 36px;
+  border-left: 0.8rem solid #222;
+  border-right: 0.8rem solid #222;
+  letter-spacing: 0.3rem;
+}
+
+.meme-generator .meme-author {
+  margin: 0.8rem;
+  font-size: 2rem;
+}
+
+
+.meme-title {
+  margin: 1rem 0;
+  font-size: 2rem;
+}
